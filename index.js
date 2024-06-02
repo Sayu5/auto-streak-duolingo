@@ -4,22 +4,7 @@ const headers = {
   'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36',
 }
 
-const SESSION_PAYLOAD = {
-  "challengeTypes": ["assist", "characterIntro", "characterMatch", "characterPuzzle", "characterSelect", "characterTrace", "completeReverseTranslation", "definition", "dialogue", "form", "freeResponse", "gapFill", "judge", "listen", "listenComplete", "listenMatch", "match", "name", "listenComprehension", "listenIsolation", "listenTap", "partialListen", "partialReverseTranslate", "patternTapComplete", "readComprehension", "select", "selectPronunciation", "selectTranscription", "syllableTap", "syllableListenTap", "speak", "tapCloze", "tapClozeTable", "tapComplete", "tapCompleteTable", "tapDescribe", "translate", "transliterate", "typeCloze", "typeClozeTable", "typeCompleteTable", "writeComprehension"],
-  "fromLanguage": "en",
-  "isFinalLevel": false,
-  "isV2": true,
-  "juicy": true,
-  "learningLanguage": "ja",
-  "smartTipsVersion": 2,
-  "isCustomIntroSkill": false,
-  "isGrammarSkill": false,
-  "levelIndex": 0,
-  "showGrammarSkillSplash": false,
-  "skillId": "060ce4633b12e01d03c5baa22fddd7ab",
-  "type": "LESSON",
-  "levelSessionIndex": 0
-};
+const SESSION_PAYLOAD = {"challengeTypes":["assist","characterIntro","characterMatch","characterPuzzle","characterSelect","characterTrace","characterWrite","completeReverseTranslation","definition","dialogue","extendedMatch","extendedListenMatch","form","freeResponse","gapFill","judge","listen","listenComplete","listenMatch","match","name","listenComprehension","listenIsolation","listenSpeak","listenTap","orderTapComplete","partialListen","partialReverseTranslate","patternTapComplete","radioBinary","radioImageSelect","radioListenMatch","radioListenRecognize","radioSelect","readComprehension","reverseAssist","sameDifferent","select","selectPronunciation","selectTranscription","svgPuzzle","syllableTap","syllableListenTap","speak","tapCloze","tapClozeTable","tapComplete","tapCompleteTable","tapDescribe","translate","transliterate","transliterationAssist","typeCloze","typeClozeTable","typeComplete","typeCompleteTable","writeComprehension"],"fromLanguage":"en","isFinalLevel":false,"isV2":true,"juicy":true,"learningLanguage":"ja","smartTipsVersion":2,"generatorIdentifiersOfRecentMistakes":[],"levelIndex":0,"pathExperiments":["UNIT_VISION_BB_93"],"skillId":"da3c7d19c7a27ef33d0cac7d0f819dfa","type":"LEVEL_REVIEW","levelSessionIndex":3};
 
 const {
   sub
